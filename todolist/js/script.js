@@ -134,10 +134,6 @@ window.addEventListener('DOMContentLoaded', function() {
 });
 
 // Função para filtrar tarefas
-
-// ... código anterior ...
-
-// Função para filtrar tarefas
 function filterTodos() {
     const searchText = searchInput.value.toLowerCase();
     const filterValue = filterSelect.value;
@@ -165,11 +161,6 @@ searchInput.addEventListener('input', filterTodos);
 // Evento de mudança do filtro
 filterSelect.addEventListener('change', filterTodos);
 
-// ... código posterior ...
-
-
-// Evento de mudança do filtro
-filterSelect.addEventListener('change', filterTodos);
 
 //evento de limpar pesquisa
 document.querySelector('#search button').addEventListener('click', function() {
